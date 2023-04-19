@@ -1,0 +1,227 @@
+%----------------------------------------------------------------------------------------
+%  Packages And Other Document Configurations
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+% Document margins
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+
+% Color and hyperlink packages
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Footnote and margin adjustment packages
+\usepackage{footnote}
+\usepackage{changepage}
+
+% Fontawesome package for icons
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Tabularx package for custom tables
+\usepackage{tabularx}
+
+% Define navyblue color
+\definecolor{navyblue}{RGB}{0,54,123}
+
+%----------------------------------------------------------------------------------------
+%   Customizations
+%----------------------------------------------------------------------------------------
+
+% Define italicitem, bolditem, and plainitem commands
+\newcommand{\italicitem}[1]{\item{\textit{#1}}}
+\newcommand{\bolditem}[1]{\item{\textbf{#1}}}
+\newcommand{\plainitem}[1]{\item{#1}}
+
+% Define user-friendly link command for hyperlinks
+\newcommand{\link}[2]{{\href{#1}{#2}}}
+
+\newcommand{\entry}[2]{#1 & #2 \tabularnewline} % Defines an entry with two arguments: #1 for the first column and #2 for the second column
+
+%----------------------------------------------------------------------------------------
+%   Define envsection command for defining a new environment section
+%----------------------------------------------------------------------------------------
+
+\newcommand{\tableEnv}[2]{%
+	\begin{rSection}{#1} % Begin rSection with the given name
+		\begin{adjustwidth}{0.0in}{0.1in} % Set the left and right margins
+			\begin{tabularx}{\linewidth}{@{} >{\bfseries}l @{\hspace{6ex}} X @{}}
+				#2 % Print the content inside the tabularx environment
+			\end{tabularx}
+		\end{adjustwidth}
+	\end{rSection}
+}
+
+%----------------------------------------------------------------------------------------
+%   Begin document
+%----------------------------------------------------------------------------------------
+
+% Set name with navyblue color
+\name{\color{navyblue}\normalfont Yash Bhutoria}
+
+
+\begin{document}
+	\centering{\color{navyblue}\fontsize{16}{16}\selectfont Enterprise Cloud Architect}
+	\printPersonalInfo{
+		\personalInfo{\tag{Location}\info{Dallas, TX} \space \tag{E-mail}\info{yash.bhutoria@celebaltech.com}}
+	}
+	
+	
+	%----------------------------------------------------------------------------------------
+	%   Professional Summary
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Professional Summary}
+		{Dynamic and results-driven Enterprise Cloud Architect with 5+ years of experience in designing, implementing, and managing cloud-based solutions for businesses of all sizes. Proficient in a wide range of hyperscalers and IPaaS platforms, including AWS, Azure, and GCP. Skilled in developing and executing cloud migration strategies, optimizing cloud performance and security, and leading cross-functional teams.}
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%   Work experience section
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Work experience}
+		
+		% First work experience entry
+		\begin{rSubsection}{Celebal Technologies Americas}{May 2023 - Present}{Principal Consultant, Enterprise Integration}{Dallas, TX}
+			\item Architecting and developing enterprise integration solutions on hyperscaler clouds
+			\item Creating standards and research for Application Modernization
+			\item Managing delivery for high value clients
+			\item Growing and mentoring a team of 40+ associates
+			\item Technical research, strategic planning and advisory
+		\end{rSubsection}
+		
+		% Second work experience entry
+		\begin{rSubsection}{Celebal Technologies Pvt. Ltd.}{May 2019 - July 2022}{Member of Technical Staff, Enterprise Integration}{Jaipur, India}
+			\item Designing and developing data integration solutions on hyperscalers like Azure and GCP
+			\item Managing delivery for high value clients
+			\item Growing and mentoring a team of 30+ associates
+			\item Technical research, strategic planning and advisory
+		\end{rSubsection}
+		
+		
+	\end{rSection}
+	
+	
+	%----------------------------------------------------------------------------------------
+	%   Education section
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Education}
+		
+		% Master's degree entry
+		\begin{rSubsectionNoBullet}{\bf Master of Science in Business Analytics}{University of Illinois Urbana-Champaign}{Gies College of Business, Champaign, IL}{2022 - 2023}
+			\italicitem{Graduated with Beta Gamma Sigma ($\mathcal{B}\Gamma\Sigma$) honor }
+		\end{rSubsectionNoBullet}
+		
+		% Bachelor's degree entry
+		\begin{rSubsectionNoBullet}{\bf Bachelor of Technology in Computer Science}{Rajasthan Technical University}{Poornima College of Engineering, Jaipur, India}{2015 - 2019}
+			\italicitem{}
+		\end{rSubsectionNoBullet}
+		
+	\end{rSection}
+	
+	
+	%----------------------------------------------------------------------------------------
+	% Technical skills section
+	%----------------------------------------------------------------------------------------
+	
+	\tableEnv{Technical skills}{
+		\entry{Project Domains}{Application Modernization, Enterprise Integration, Data Engineering, Infrastructure as Code, API Design}
+		\entry{Integration Services}{Azure Functions, Azure Logic Apps, Azure Service Bus, Azure Event Grid, Azure API Management, Azure App Services, Azure Storage Services}
+		\entry{Integration Platforms}{Databricks, Azure Data Factory, Dell Boomi, Google Data Fusion, Apache Airflow}
+		\entry{DevOps Tools}{Azure DevOps, Jira, Docker, Git}
+		\entry{Frameworks and Libraries}{FastAPI, PySpark, Selenium, Matplotlib, Pandas, Numpy}
+		\entry{Languages}{Python, Go, Shell, Terraform, DAX, R, SQL}
+	}
+	
+	%----------------------------------------------------------------------------------------
+	% Certifications
+	%----------------------------------------------------------------------------------------
+	
+	\tableEnv{Certifications}{
+		\entry{}{Databricks Lakehouse Fundamentals, Azure Developer Associate, Datacamp Supervised Learning, Exploring and Producing Data for Business Decision Making, Inferential and Predictive Statistics for Business, Azure Data Fundamentals, Azure Fundamentals}
+	}
+	
+	
+	%----------------------------------------------------------------------------------------
+	% Projects
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Projects}
+		\begin{itemize}
+			\item \textbf{iPaaS on Azure (for a Hospitality Company at San Diego)} (10/2020 - 07/2022):
+			\begin{itemize}
+				\item Role: Lead Offshore Developer, lead a team of 8
+				\item Description: The customer wanted to eliminate point to point custom data integration solution with a unified and extendable platform. Designed and developed an integration platform on Azure. The project included C\# based server-less functions, API Gateway, Cloud-based automated workflows and Infrastructure as Code all deployed and configured with CI/CD Pipelines for automation and agility.
+				\item Achievements: Finished phase one of the project by going live as part of a company wide technology makeover effort.
+			\end{itemize}
+		\end{itemize}
+
+		\begin{itemize}
+			\item \textbf{Data Landscape Modernization (for an Illinois-based Motorparts Manufacturer)} (04/2021 - Present):
+			\begin{itemize}
+				\item Role: Architect and Lead Developer, lead a team of 6
+				\item Description: Modernized the customer's data ingestion landscape by implementing batched data pipelines using Azure Data Factory and eliminating the need for any 3rd party middleware saving thousands of dollars in licensing costs. Established mechanisms to consolidate and move data from multiple SAP S/4 instances into Salesforce as aggregates to enable sales order reporting.
+			\end{itemize}
+		\end{itemize}
+		
+		\begin{itemize}
+			\item \textbf{Data Landscape Modernization (for a Medical Imaging Device Manufacturer in Manhattan)} (10/2020 - Present):
+			\begin{itemize}
+				\item Role: Architect and Lead Developer, lead a team of 6
+				\item Description: Modernized the customer's data landscape by moving from legacy on-premise database to a managed cloud database on Microsoft Azure, bringing down operational and management cost by $\sim$40\%. Established batch and real-time data ingestion pipelines from SAP C4C to Azure SQL Database with monitoring using in a Serverless fashion, well-defined procedures for deployment and release using Azure DevOps to ensure collaboration and quality control.
+			\end{itemize}
+		\end{itemize}
+		
+		\begin{itemize}
+			\item \textbf{Data Integration on Dell Boomi (for a Global Sports Brand)} (05/2020 - 08/2020):
+			\begin{itemize}
+				\item Role: Lead Offshore Developer, lead a team of 4
+				\item Description: Managed overall offshore delivery, and produced planning and design documents. Developed integrations connecting 10+ systems to run on daily batches and real-time frequencies using Dell Boomi Integration platform as a middleware.
+			\end{itemize}
+		\end{itemize}
+		
+		\begin{itemize}
+			\item \textbf{Learning and Development Reporting (for an Indian Telecom Company)} (04/2019 - 04/2020):
+			\begin{itemize}
+				\item Role: Lead Developer, lead a team of 2
+				\item Description: The project delivered a Power BI dashboard showing learning and development progress and metrics on the entire company. This solution is built to automatically pull the data from the company's various learning platforms, transformed and stored into Azure SQL Database. The data pipelines were built upon API and Selenium-based scheduled jobs.
+			\end{itemize}
+		\end{itemize}
+		
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%   Academic Research
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Academic Research}
+		\begin{itemize}
+			\item \textbf{Decentralized storage with Filecoin}: This research aims to provide public universities with a better understanding of the role of decentralized storage protocols in their IT infrastructure, specifically Filecoin/IPFS. The team plans to evaluate which public data sets are suitable for storage using Filecoin, demonstrate a use case of decentralized computing over the data, and create an analytical model that shows the cost-benefit tradeoffs of using decentralized storage. The output of this research provides universities with valuable insights into the potential benefits and risks of adopting decentralized storage solutions, allowing them to make more informed decisions about their IT infrastructure.
+			\item \textbf{Creating LLM-based Dynamic Analytics on CRM and ERP Systems}: This research aims to develop a system that can create dynamic queries and visualizations based on user input and apply natural language processing (NLP) to Customer
+			Relationship Management (CRM) and Enterprise Resource Planning (ERP) systems. The project 
+			will involve analyzing large amounts of data from various sources using LLaMA (Large 
+			Language Model Meta AI) model and fine-tuning LLMs to specialized queries. The generated 
+			queries will be used to create dynamic visualizations, providing users with real-time insights 
+			into their CRM and ERP systems. The project used National Center for Supercomputing Applications Delta supercomputer at UIUC for compute.
+		\end{itemize}
+	\end{rSection}
+	
+	
+	
+	%----------------------------------------------------------------------------------------
+	%   Other Achievements and Activities
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Other Achievements and Activities}
+		\begin{itemize}
+			\item \textbf{Member of Jury, Manipal National Hackathon (DoIT)}: Mentored and evaluated innovative projects presented by tech students from all over the India in the 24Hr hackathon organised by Department of IT Rajasthan Gov and Manipal University
+			\item \textbf{Mentor and Judge, JECRC Hackathon 4.0 (2020)}: Mentored and evaluated innovative projects presented by tech students from all over the India in the 24Hr hackathon organised by JECRC College, Jaipur
+			\item \textbf{Expert Lectures at Various Universities}: Delivered multiple expert lectures on Cloud Services, Servelress computation and Modern API Design at MNIT Jaipur, Manipal University, University of Illinois Urbana-Champaign
+		\end{itemize}
+	\end{rSection}
+		
+
+	
+\end{document}
