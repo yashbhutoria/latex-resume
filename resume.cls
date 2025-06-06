@@ -2,7 +2,7 @@
 \LoadClass[11pt,letterpaper]{article}
 
 % Enable custom colors
-\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
 
 % Remove paragraph indentation
 \usepackage[parfill]{parskip}
