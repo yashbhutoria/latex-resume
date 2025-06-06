@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 JUN 2025 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 JUN 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,49 +415,48 @@ LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 15.19995pt on input line 64.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 67.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 67.
+(Font)              scaled to size 10.40245pt on input line 68.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 74.
+(Font)              scaled to size 10.40245pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 74.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 10.40245pt on input line 74.
+(Font)              scaled to size 10.40245pt on input line 75.
 
-Overfull \hbox (5.46564pt too wide) in paragraph at lines 75--76
+Overfull \hbox (5.46564pt too wide) in paragraph at lines 76--77
 []\OT1/phv/m/n/10.95 As As-sis-tant Vice Pres-i-dent at Cele-bal Tech-nolo-gies
 , I ar-chi-tect, de-velop, and man-age ro-bust and scal-able enterprise-
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 86.
+(Font)              <10.95> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 86.
+(Font)              <8> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 86.
+(Font)              <6> on input line 87.
 
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-
-[2]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-83.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
+81.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 183.
+(Font)              scaled to size 10.40245pt on input line 181.
 
+
+[2]
 
 [3]
 
-[4]
-
-[5] (./resume.aux)
+[4] (./resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -466,22 +465,22 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10337 strings out of 473190
- 161639 string characters out of 5715801
- 591685 words of memory out of 5000000
+ 10336 strings out of 473190
+ 161633 string characters out of 5715801
+ 590685 words of memory out of 5000000
  33438 multiletter control sequences out of 15000+600000
  574272 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,8n,93p,776b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,93p,528b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on resume.pdf (5 pages, 66689 bytes).
+Output written on resume.pdf (4 pages, 63606 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
